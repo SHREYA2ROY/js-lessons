@@ -39,6 +39,13 @@ console.log(y)//allowed
   var a=2;
 //   console.log(b);
 //   let b=2;//error
+/* HOISTING MEANS JavaScript knows that a variable or function exists — even before the line where you wrote it.
+console.log(a); var a = 2; OUTPUT= UNDEFINED ,var is hoisted and initialized
+console.log(b); let b = 2; OUTPUT=ERROR,let is hoisted but not initialized
+
+
+
+*/
 let b;
 console.log(b); //undefined
   // if no declaration of variable is present like:-
