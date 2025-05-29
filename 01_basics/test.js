@@ -1,7 +1,7 @@
 console.log("shreya");
 // there are one way of declaring variable for constant values but two ways for variable values 
 const user="shreya";
-var password = 1234;
+var password = 1234;//prefer not to use var because of issue in block scope and functinal scope
 let emailId="shreya.in"; //always use let for declaring any variable in javascript
 city ="jaipur";
 
