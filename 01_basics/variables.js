@@ -51,4 +51,4 @@ console.log(b); //undefined
   // if no declaration of variable is present like:-
   a=9;
   console.log(a);
-  //here a is by default a global variable that is var 
+  //here a is by default a global variable that is var
